@@ -13,12 +13,12 @@ from scipy.misc import imsave
 height = 512
 width = 512
 
-content_image_path = '/Users/bradley/Desktop/linear_image_classifier/images/me.jpg'
+content_image_path = 'images/me.jpg'
 content_image = Image.open(content_image_path)
 content_image = content_image.resize((height, width))
 
 
-style_image_path = '/Users/bradley/Desktop/linear_image_classifier/images/style/alexgrey.jpg'
+style_image_path = 'images/style/alexgrey.jpg'
 style_image = Image.open(style_image_path)
 style_image = style_image.resize((height, width))
 
